@@ -26,7 +26,7 @@ function Post() {
 
   return (
     <>
-      <div className="container">
+      <div className="container"  style={{backgroundColor:"#2c75ff" , width:"600px"}} >
         <div className="jumbotron mt-3">
           <div className="row">
             <div className="col-md-12">
@@ -58,7 +58,7 @@ function Post() {
                         className="form-control"
                       />
                     </div>
-                    <img src={image} />
+                    {/* <img src={image}  style={{height:"300px"}}/> */}
                     <div className="form-group">
                       <button
                         type="button"
@@ -86,6 +86,11 @@ function Post() {
           </Pdf>
         </>
       )}
+      <div style={{marginLeft:"100px"}}>
+        <a style={{fontSize:"40px"}}> Yandaki Gibi gözükecektir =</a>
+      <img src={image}  style={{height:"400px" , marginLeft:"70px"}}/>
+
+      </div>
     </>
   );
 }
