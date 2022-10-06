@@ -4,7 +4,7 @@ import { jsPDF } from "jspdf";
 const ref = React.createRef();
 
 function Post() {
-  const [image, setImage] = useState("");
+  const [image, setImage] = useState("https://4.bp.blogspot.com/_B1Xy7vMEK5g/TQAH3AJZ2II/AAAAAAAABDw/V0ZSMuGOzU8/s1600/IMG_2520.JPG");
   const [title, setTitle] = useState("");
   const [postSubmitted, setPostSubmitted] = useState(false);
 
